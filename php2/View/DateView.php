@@ -1,7 +1,5 @@
 <?php
 
-//namespace View;
-
 class DateView
 {
 	public function Dateviewer()
