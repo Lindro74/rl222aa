@@ -1,5 +1,5 @@
 <?php
-
+//namespace Controller;
 require_once'\model\Usercheck.php';
 require_once'\view\HtmlView.php';
 

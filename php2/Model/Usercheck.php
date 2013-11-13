@@ -1,4 +1,5 @@
 <?php
+//namespace Model;
 
 require_once'\view\HtmlView.php';
 require_once'\controller\LoginController.php';
@@ -27,6 +28,7 @@ class Usercheck
 			{
 				$_SESSION['login'] = true;
 				$_SESSION['user'] = $_POST['username'];
+				$this->controll->LoginCheck();
 			}
 			else
 			{

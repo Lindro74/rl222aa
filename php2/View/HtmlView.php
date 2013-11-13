@@ -1,5 +1,5 @@
 <?php
-
+//namespace view;
 
 require_once'\controller\LoginController.php';
 
